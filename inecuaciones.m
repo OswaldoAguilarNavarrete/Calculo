@@ -15,7 +15,7 @@ plot([-20 18],[0,0],'k+-',"linewidth",5,"markersize",12)
 plot([0 0],[-15 15],'k-',"linewidth",5)
 plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20);
-title( "El intervalo es: (-oo,18)" )
+title( "El intervalo de la primera ecuaion es : (-oo,18)" )
 
 
 
@@ -34,7 +34,9 @@ plot([-0.87 6.8729],[0,0],'k+-',"linewidth",5,"markersize",12)
 plot([0 0],[-15 15],'k-',"linewidth",5)
 plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20);
-title( "El intervalo es: (-6.87298,0.872983)")
+title( "El intervalo  de la segunda inecuacion es: (-6.87298,0.872983)")
+
+
 
 %Inecuaciones de Valor Absoluto
 syms x
@@ -52,4 +54,4 @@ plot([-20 7.8],[0,0],'k+-',"linewidth",5,"markersize",12)
 plot([0 0],[-15 15],'k-',"linewidth",5)
 plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20)
-title( "El intervalo es: (-oo,7.8) y (-oo,8.2)")
+title( "El intervalo de la ecuacion de valor absoluto es: (-oo, 7.8) y (-oo, 8.2)" )

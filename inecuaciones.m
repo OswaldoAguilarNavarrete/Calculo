@@ -36,8 +36,8 @@ disp("|x-8|>0.2")
 solve(abs(x-8)>0.2)
 
 subplot(2,2,3)
-x=[-20:7.8]
-x=[-20:8.2]
+x=[-25:7,8]
+x=[-25:8,2]
 y=x-7.8
 plot(x,y,'ro-',"markersize",10,"linewidth",3)
 hold on
